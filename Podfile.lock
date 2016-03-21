@@ -1,0 +1,34 @@
+PODS:
+  - libWeChatSDK (1.6.2)
+  - ReactiveCocoa (4.0.1):
+    - ReactiveCocoa/UI (= 4.0.1)
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/Core (4.0.1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/no-arc (4.0.1):
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/UI (4.0.1):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0.2)
+  - Result (1.0.2)
+
+DEPENDENCIES:
+  - libWeChatSDK (from `https://github.com/KyleXie/libWeChatSDK.git`)
+  - ReactiveCocoa
+
+EXTERNAL SOURCES:
+  libWeChatSDK:
+    :git: https://github.com/KyleXie/libWeChatSDK.git
+
+CHECKOUT OPTIONS:
+  libWeChatSDK:
+    :commit: ca42a0e05279adaad7d9f058e20f4899f61a988d
+    :git: https://github.com/KyleXie/libWeChatSDK.git
+
+SPEC CHECKSUMS:
+  libWeChatSDK: e885fe8039d2e234c95742e7e81093e6e0f19b35
+  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+
+COCOAPODS: 0.39.0
